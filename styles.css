@@ -67,7 +67,7 @@ button {
   align-items:center;
   justify-content:space-between;
 
-  padding:14px 32px;
+  padding:4px 10px;
 
   background:var(--parchment);
 
@@ -83,7 +83,7 @@ button {
 .nav-left{
   display:flex;
   align-items:center;
-  gap:36px;
+  gap:0px;
 }
 
 .nav-right{
@@ -95,12 +95,12 @@ button {
 .nav-logo{
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:4px;
 }
 
 .logo-icon{
-  width:180px;
-  height:70px;
+  width: 400px;
+  height:100px;
   object-fit:contain;
 }
 
@@ -112,6 +112,8 @@ button {
 .nav-links{
   display:flex;
   align-items:center;
+  left: 15%;
+  transform: translateX(-15%);
   gap:22px;
 }
 
